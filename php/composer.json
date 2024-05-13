@@ -1,0 +1,17 @@
+{
+  "name": "rabbitmq/php",
+  "autoload": {
+    "psr-4": {
+      "Tamva\\Php\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "itsmee3223",
+      "email": "ramandaajisakaa@gmail.com"
+    }
+  ],
+  "require": {
+    "php-amqplib/php-amqplib": "^3.6"
+  }
+}
