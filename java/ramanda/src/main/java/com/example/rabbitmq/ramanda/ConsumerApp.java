@@ -22,7 +22,7 @@ public class ConsumerApp {
         };
 
         channel.basicConsume("whatsapp", true, deliverCallback, cancelCallback);
-//        
+//
 //        channel.close();
 //        connection.close();
     }
