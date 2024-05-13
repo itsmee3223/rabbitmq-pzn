@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	connection, err := amqp091.Dial("amqp//guest:guest@localhost:5672/")
+	connection, err := amqp091.Dial("amqp://guest:guest@localhost:5672/")
 	if err != nil {
 		panic(err)
 	}
